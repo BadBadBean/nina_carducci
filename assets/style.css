@@ -187,7 +187,7 @@ nav a {
 	z-index: 1;
 }
 
-#contact {
+footer {
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
@@ -195,7 +195,7 @@ nav a {
 	padding-block: 100px;
 }
 
-#contact .container {
+footer .container {
 	display: flex;
 }
 .picture.right::before {
@@ -245,7 +245,7 @@ input[type="submit"] {
 	.picture {
 		flex : 2;
 	}
-	#about, #contact .container {
+	#about, footer .container {
 		align-items: center;
 	}
 	.about-me__title {
@@ -300,10 +300,10 @@ input[type="submit"] {
 		z-index: 0;
 	}
 
-	#contact .container {
+	footer .container {
 		flex-direction: column;
 	}
-	#contact .picture.right {
+	footer .picture.right {
 		margin-top: 1em;
 	}
 	.picture.right::before {
@@ -339,7 +339,7 @@ input[type="submit"] {
 	.service {
 		max-width: 90%;
 	}
-	#about, #contact {
+	#about, footer {
 		padding-inline: 2em;
 		padding-block: 2em;
 	}
