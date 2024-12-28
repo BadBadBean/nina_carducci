@@ -62,22 +62,29 @@
       content="photo d'un couple de mariés qui s'embrassent entourés par leurs proches"
     />
 
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" media="screen">
     <link rel="stylesheet" href="./assets/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-      rel="stylesheet"
-    />
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+  rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+  as="style"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+  rel="stylesheet"
+/>
+
+    <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
+      defer
     ></script>
-    <script src="./assets/maugallery.js"></script>
-	  <script src="./assets/scripts.js"></script>
+    <script src="./assets/maugallery.js" defer></script>
+	  <script src="./assets/scripts.js" defer></script>
 
     <!-- Schema.org -->
     <script type="application/ld+json">
@@ -163,6 +170,7 @@
                 src="./assets/images/slider/photo-public.webp"
                 class="d-block w-100 h-auto"
                 alt="Photo d'une foule de spectateurs pendant un concert"
+                loading="lazy"
               />
             </div>
             <div class="carousel-item">
@@ -170,6 +178,7 @@
                 src="./assets/images/slider/photo-mariage.webp"
                 class="d-block w-100 h-auto"
                 alt="photo d'un couple de mariés qui s'embrassent entourés par leurs proches"
+                loading="lazy"
               />
             </div>
           </div>
@@ -198,7 +207,8 @@
           <img
             src="./assets/images/nina-carducci.webp"
             alt="portrait de Nina Carducci"
-            class="h-auto"
+            class="w-100 h-auto"
+            loading="lazy"
           />
         </div>
         <div id="about-me">
@@ -373,7 +383,7 @@
           <img
             src="./assets/images/camera.webp"
             alt="photo d'un appareil photo Leica"
-            class="h-auto"
+            class="w-100 h-auto"
           />
         </div>
       </div>
