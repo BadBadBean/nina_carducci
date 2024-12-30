@@ -47,6 +47,10 @@ nav a {
 	max-height: 1000px;
 }
 
+.visually-hidden {
+	color: black;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -103,7 +107,7 @@ nav a {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #1c6474;
+	background-color: #1B5F6F;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
